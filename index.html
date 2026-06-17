@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Multi‑Device Site Viewer</title>
+<meta name="description" content=" free Site Viewer no Signing Up free online Multi‑Device Site Viewer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  font-family:Arial, sans-serif;
+  background:#0f172a;
+  color:#e5e7eb;
+  margin:0;
+  padding:20px;
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+.top-bar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  margin-bottom:15px;
+}
+input[type=text]{
+  flex:1;
+  min-width:220px;
+  padding:10px;
+  border-radius:6px;
+  border:none;
+  outline:none;
+}
+button{
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+}
+button.mode{
+  background:#111827;
+  border:1px solid #374151;
+}
+button.mode.active{
+  background:#2563eb;
+  border-color:#2563eb;
+}
+.viewer-wrap{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+}
+.device-frame{
+  background:#000;
+  border-radius:18px;
+  padding:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.6);
+  position:relative;
+}
+.device-frame::before{
+  content:"";
+  position:absolute;
+  top:6px;
+  left:50%;
+  transform:translateX(-50%);
+  width:60px;
+  height:4px;
+  border-radius:999px;
+  background:#111827;
+}
+iframe{
+  border:none;
+  background:white;
+  border-radius:10px;
+}
+.info{
+  margin-top:8px;
+  text-align:center;
+  font-size:13px;
+  color:#9ca3af;
+}
+
+
+/* ===== FORCE DESKTOP LOOK ONLY ON PHONES + TABLETS ===== */
+@media only screen and (max-width: 1024px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    zoom: 0.38; /* safer than transform */
+    transform-origin: top left;
+  }
+
+  #outer-wrapper,
+  .main-wrapper,
+  .content-wrapper {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  a, button {
+    touch-action: manipulation;
+  }
+}
+
+/* STRONGEST RESET TO BLOGGER DEFAULT (PHONES ONLY) */
+@media only screen and (max-width: 768px) {
+
+  .post-body,
+  .page-body,
+  .post-body *,
+  .page-body * {
+    all: revert !important;
+  }
+
+}
+
+/* ======================= DESKTOP ONLY (1025px and above) ======================= */
+@media only screen and (min-width: 1025px) {
+
+/* --- Paragraphs styling --- */
+.post-body p {
+  font-size: 20px !important;
+  line-height: 1.75em !important;
+  color: #222 !important;
+  font-family: "Arial", "Helvetica", sans-serif !important;
+  max-width: 500px;
+  margin: 0 auto 1em auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+/* --- Drop Cap --- */
+.post-body p:first-of-type::first-letter {
+  float: left;
+  font-size: 2.8em;
+  line-height: 1;
+  margin-right: 6px;
+  font-weight: bold;
+  color: #111;
+  font-family: "Georgia", "Times New Roman", serif;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+/* --- Headings --- */
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  font-weight: 700 !important;
+  color: #111 !important;
+  line-height: 1.2em !important;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.post-body h1 { font-size: 36px !important; }
+.post-body h2 { font-size: 28px !important; }
+.post-body h3 { font-size: 22px !important; }
+
+/* --- Paragraph spacing --- */
+.post-body p + p {
+  border-top: 1px solid #eee;
+  padding-top: 0.6em;
+  margin-top: 0.6em;
+}
+
+/* --- Blockquotes --- */
+.post-body blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 18px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #555;
+  background-color: #f9f9f9;
+}
+
+/* --- Images --- */
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+/* --- Lists --- */
+.post-body ul,
+.post-body ol {
+  margin: 15px 0 20px 20px;
+  line-height: 1.7em;
+}
+
+/* --- Buttons hover --- */
+.post-body button:hover,
+.post-body a.button:hover {
+  background-color: #003366;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>🌐 Multi‑Device Site Viewer</h2>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743"
+     crossorigin="anonymous"></script>
+<!-- Vertical New -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2269884583846743"
+     data-ad-slot="2906167922"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <div class="top-bar">
+    <input type="text" id="siteUrl" placeholder="Enter site URL, e.g. https://example.com">
+    <button onclick="loadSite()">Open</button>
+  </div>
+
+  <div class="top-bar">
+    <button class="mode active" data-w="375" data-h="667" onclick="setMode(this)">📱 Phone</button>
+    <button class="mode" data-w="768" data-h="1024" onclick="setMode(this)">📲 Tablet</button>
+    <button class="mode" data-w="1366" data-h="768" onclick="setMode(this)">💻 Laptop</button>
+    <button class="mode" data-w="1920" data-h="1080" onclick="setMode(this)">🖥 Desktop</button>
+  </div>
+
+  <div class="viewer-wrap">
+    <div class="device-frame">
+      <iframe id="previewFrame" src="about:blank" width="375" height="667"></iframe>
+    </div>
+  </div>
+
+  <div class="info" id="sizeInfo">Current size: 375 × 667 (Phone)</div>
+</div>
+
+<script>
+function normalizeUrl(url){
+  url = url.trim();
+  if(!url) return "";
+  if(!/^https?:\/\//i.test(url)){
+    url = "https://" + url;
+  }
+  return url;
+}
+
+function loadSite(){
+  const input = document.getElementById("siteUrl");
+  const frame = document.getElementById("previewFrame");
+  const url = normalizeUrl(input.value);
+  if(!url){
+    alert("Please enter a URL");
+    return;
+  }
+  frame.src = url;
+}
+
+function setMode(btn){
+  const w = parseInt(btn.getAttribute("data-w"),10);
+  const h = parseInt(btn.getAttribute("data-h"),10);
+  const frame = document.getElementById("previewFrame");
+  frame.width = w;
+  frame.height = h;
+
+  document.querySelectorAll("button.mode").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+
+  const label = btn.textContent.trim();
+  document.getElementById("sizeInfo").textContent =
+    `Current size: ${w} × ${h} (${label.replace(/^[^A-Za-z]+/,"")})`;
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743"
+     crossorigin="anonymous"></script>
+<!-- 300 by 250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-2269884583846743"
+     data-ad-slot="2359999321"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div class='mobile-hub'>
+
+    
+  <div id='emb99d-footer' style='background:#111; text-align:center; padding:10px 0; font-family:Raleway, Arial, sans-serif;'>
+
+    <a href='/' rel='noopener noreferrer' style='color:#04ff00; margin:0 6px; text-decoration:none;'>Home</a>
+    <span style='color:#fff;'>|</span>
+    
+    <a href='https://www.marketing2advertising.com/p/contact-us.html' rel='noopener noreferrer' style='color:#04ff00; margin:0 6px; text-decoration:none;'>Contact</a>
+    <span style='color:#fff;'>|</span>
+    
+    <a href='https://www.marketing2advertising.com/p/privacy-policy.html' rel='noopener noreferrer' style='color:#04ff00; margin:0 6px; text-decoration:none;' target='_blank'>Privacy</a>
+    <span style='color:#fff;'>|</span>
+    
+    <a href='https://www.marketing2advertising.com/p/affiliate-marketing-and-adsense.html' rel='noopener noreferrer' style='color:#04ff00; margin:0 6px; text-decoration:none;' target='_blank'>Disclosure</a>
+    <span style='color:#fff;'>|</span>
+    
+    <a href='https://www.marketing2advertising.com/2020/12/terms-and-conditions.html' rel='noopener noreferrer' style='color:#04ff00; margin:0 6px; text-decoration:none;' target='_blank'>Terms</a>
+  
+    <p style='color:#aaa; font-size:14px; margin:10px 0 0;'>
+      &#169; Animated GIF Maker - Marketing2Advertising. All rights reserved.
+    </p>
+
+</div>
+
+<script>
+(function() {
+  try {
+    if (window.self !== window.top) {
+      var el = document.getElementById(&quot;emb99d-footer&quot;);
+      if (el) el.style.display = &quot;none&quot;;
+    }
+  } catch (e) {
+    // If cross-origin iframe blocks access, still hide it
+    var el = document.getElementById(&quot;emb99d-footer&quot;);
+    if (el) el.style.display = &quot;none&quot;;
+  }
+})();
+</script>
+  
+<div class='mobile-only-bar'/>
+  </div>
+    
+      <script>
+(function() {
+  try {
+    // Detect if page is inside iframe
+    if (window.self !== window.top) {
+      var el = document.getElementById(&quot;e66d-hide&quot;);
+      if (el) el.style.display = &quot;none&quot;;
+    }
+  } catch (e) {
+    // If cross-origin iframe, still hide
+    var el = document.getElementById(&quot;e66d-hide&quot;);
+    if (el) el.style.display = &quot;none&quot;;
+  }
+})();
+</script>
+
+</body>
+</html>
